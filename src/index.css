@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/MontserratAlternates-Regular.ttf");
+}
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("../fonts/MontserratAlternates-Medium.ttf");
+}
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../fonts/MontserratAlternates-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/MontserratAlternates-Bold.ttf");
+}
+@font-face {
+  font-family: "Montserrat-Black";
+  src: url("../fonts/MontserratAlternates-Black.ttf");
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  /* Fuente del texto del cuerpo */
+  color: #374151;
+  /* Color del texto del cuerpo */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat-Black', sans-serif;
+  /* Fuente de los títulos */
+  color: #111827;
+  /* Color de los títulos */
+}
+
+.bg-primary-color {
+  background-color: #49BEB7;
+}
+.text-primary-color {
+  color: #49BEB7;
+}
+
+.border-primary-color {
+  border-color: #49BEB7;
+}
+.bg-secondary-color {
+  background-color: #c9ecea;
+}
+.bg-ternary-color {
+  background-color: #085f63;
+}
+.react-datepicker__view-calendar-icon input {
+  width: 350px;
+  height: 59px;
+}
+.react-datepicker__input-container {
+  position: relative;
+}
+.react-datepicker__input-container {
+  display: flex;
+  align-items: center;
+}
+.react-datepicker__calendar-icon {
+  filter: invert(90%) sepia(10%) saturate(0%) hue-rotate(0deg) brightness(85%) contrast(100%);
+}
