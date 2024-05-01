@@ -3,6 +3,9 @@ import HomePage from "./Home";
 import TransferenciasPage from "./Transferencias";
 import LoginPage from "./LogIn";
 import SignupPage from "./SignUp";
+import MiCuentaPage from "./MiCuenta";
+import DirectorioPage from "./Directorio";
+import CambiarContraseñaPage from "./CambiarContraseña";
 
 const router = createBrowserRouter([
     {
@@ -20,6 +23,18 @@ const router = createBrowserRouter([
     {
       path: "/transferencias",
       element: <TransferenciasPage />,
+    },
+    {
+      path: "/mi-cuenta",
+      element: <MiCuentaPage />,
+    },
+    {
+      path: "/directorio",
+      element: <DirectorioPage />,
+    },
+    {
+      path: "/cambiar-contraseña",
+      element: <CambiarContraseñaPage />,
     },
   ]);
   
